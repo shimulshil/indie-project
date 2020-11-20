@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo School Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/galleri.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login-search.css">
+    <link rel="stylesheet" href="css/customerservice.css">
+    <link rel="stylesheet" href="css/read-more-less.css">
+    <link rel="stylesheet" href="css/payment.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header1">Sikkert Hjem</div>
+            <div class="header2">
+                <div class="flex-all direction-column">
+                    <form id="form-login" class="form form-login flex-all hidden">
+                        <input class="form-login-input form-login-user" type="text" placeholder="Brugernavn">
+                        <input class="form-login-input form-login-pw" type="password" placeholder="Password">
+                        <input  class="form-login-input form-login-submit" type="submit" value="login">
+                    </form>
+                    <button id="toggle-login" class="toggle-login">Log ind</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+                    
+                    <nav class="main-menu">
+                        <input class="burger-check" type="checkbox" id="burger-check">
+                        <label class="burger-label" for="burger-check">
+                            <span class="burger burger-1"></span>
+                            <span class="burger burger-2"></span>
+                            <span class="burger burger-3"></span>
+                        </label>
+
+                            <nav class="dm-nav menu-items">
+                            </nav>
+                    </nav>
+                
+        </div>
+
+        <div class="search">
+            <form class="form form-search flex-all">
+                <input type="text" placeholder="Søg på siden">
+                <input class="search-btn" type="image" src="img/search.png">
+            </form>
+        </div>
+        
+        <div class="animation"></div>
+        <div class="footer-top"><p></p></div>
+
+        <div class="product product-omos">
+            <div class="product1-omos">
+                <p class="service-text">Vælge Produkter </p>
+                <form class="form1" action="" id="form">
+
+                    <div class="padding">
+                        <label style="font-weight: bold;color: brown;">Kategori</label>
+                        <br>
+                        <select class="form-width" name="" id="input-kategori" required>
+                            <option value="" disabled selected>Vælg en kategori</option>
+                            <option value="Bærbar Oplader">Bærbar Oplader </option>
+                            <option value="Mobil-Andet Tilbehør">Mobil-Andet Tilbehør</option>
+                            <option value="Netværkskamera">Netværkskamera</option>
+                            <option value="Smart Home">Smart Home </option>
+                            <option value="Strømforsyning">Strømforsyning</option>
+                            <option value="Systemtilbehør">Systemtilbehør</option>
+                        </select>
+                    </div>
+    
+                    <div class="padding">
+                        <label style="font-weight: bold;color: brown;">Product</label>
+                        <br>
+                        <select class="form-width" name="" id="input-product" required>
+                            <option value="" disabled selected>Vælg en producent</option>
+                            <option value="Hikvision WIFICO20CWT">Hikvision WIFICO20CWT </option>
+                            <option value="Alhua Technolog">Alhua Technolog</option>
+                            <option value="Lorex-1080-P-HD">Lorex-1080-P-HD</option>
+                            <option value="Day & Night -ColorCamera">Day & Night -ColorCamera</option>
+                            <option value="AMCREST-1080-HD">AMCREST-1080-HD</option>
+                            <option value="NightWatcher-HD">NightWatcher-HD</option>
+                            <option value="By-Lin-HD">By-Lin-HD </option>
+                            <option value="Lorex-1150P-HD">Lorex-1150P-HD</option>
+                            <option value="D-Link SecuriCAM">D-Link SecuriCAM</option>
+                            <option value="Cisco-Small Business-HD">Cisco-Small Business-HD</option>
+                            
+                        </select>
+                    </div>
+    
+                    <div class="padding">
+                        <label style="font-weight: bold;color: brown;">Pris</label>
+                            <br>
+                        <select class="form-width" name="" id="input-price" required>
+                            <option value="" disabled selected>Vælg en pris</option>
+                            <option value="0 kr. - 200 kr.">0 kr. - 200 kr. </option>
+                            <option value="201 kr. -400 kr.">201 kr. - 400 kr.</option>
+                            <option value="401 kr. - 1000 kr.">401 kr. - 1000 kr.</option>
+                            <option value="1001 kr. - 1500 kr.">1001 kr. - 1500 kr.</option>
+                            <option value="1501 kr. - 2000 kr.">1501 kr. - 2000 kr.</option>
+                            <option value="2001 kr. - 3000 kr.">2001 kr. - 3000 kr.</option>
+                        </select>
+                    </div>
+                    <div class="margin padding">
+                        <br>
+                        <input style="cursor: pointer;border-radius: 4px; width: 100px; height: 40px; font-size: 15px;font-weight: bold; background-color: brown; color: white;" type="submit" value="søger" id="submit">
+                    </div>
+            
+                </form>
+                <p>Sikkert Hjem er en af Danmarks bedste sikkerhedskamera leverandører. Du kan finde mere end 500 forskellige skærme, 
+                    kameraer og systemer i Sikkert Hjem Aps.</p>    
+            </div>
+            
+        </div>
+
+        <div class="image dis-product">
+            <div class="image1" id="zoo">
+                <p><img id="product-img"> </p>    
+            </div>
+
+            <div class="image2" id="zoo1"></div>
+
+            <div class="image3" id="zoo2"></div>
+        </div>
+
+        <div class="image dis-product"  id="test1">
+            <div class="image1">
+                <img class="service1" src="product-img/1.png" alt="">   
+            </div>
+            <div class="image2">
+                <p style="font-weight: bold;">Hikvision WIFICO20CWT - netværksovervågningskamera</p>
+                <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1080p, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>   
+            </div>
+            <div class="image3">
+                <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 252,00 kr.</i><br>221,60 kr. ekskl. moms</p>
+                <!-- <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Hikvision_WIFICO20CWT_-_netværksovervågningskamera">Køb...</a></button> -->
+                <!-- <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Hikvision_WIFICO20CWT_-_netværksovervågningskamera&price=252,00 Kr. Inkl. moms">Køb...</a></button> -->
+                <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Hikvision_WIFICO20CWT_-_netværksovervågningskamera&price=252,00 Kr. Inkl. moms">Køb...</a></button>
+
+            </div>
+        </div>
+
+        <div class="image dis-product">
+            <div class="image1">
+                <img class="service1" src="product-img/2.png" alt="">
+            </div>
+            <div class="image2">
+                <p style="font-weight: bold;">Alhua Technolog - netværksovervågningskamera</p>
+                <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1080p, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+            </div>
+            <div class="image3">
+                <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 275,00 kr.</i><br>230,30 kr. ekskl. moms</p>
+                <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Alhua_Technolog_-_netværksovervågningskamera&price=275,00 Kr. Inkl. moms">Køb...</a></button>
+
+            </div>
+        </div>
+
+        <div class="image dis-product">
+            <div class="image1">
+                <img class="service1" src="product-img/3.jpg" alt="">
+            </div>
+            <div class="image2">
+                <p style="font-weight: bold;">Lorex-1080-P-HD - netværksovervågningskamera</p>
+                <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1080p, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+            </div>
+            <div class="image3">
+                <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 280,00 kr.</i><br>232,50 kr. ekskl. moms</p>
+                <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Lorex-1080-P-HD_-_netværksovervågningskamera&price=280,00 Kr. Inkl. moms">Køb...</a></button>
+
+            </div>
+        </div>
+
+        <div class="image dis-product">
+            <div class="image1">
+                <img class="service1" src="product-img/4.png" alt="">
+            </div>
+            <div class="image2">
+                <p style="font-weight: bold;">Day & Night-ColorCamera - netværksovervågningskamera</p>
+                <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1180p, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+            </div>
+            <div class="image3">
+                <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 285,00 kr.</i><br>235,60 kr. ekskl. moms</p>
+                <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Day_%26_Night-ColorCamera_-_netværksovervågningskamera&price=285,00 Kr. Inkl. moms">Køb...</a></button>
+
+            </div>
+        </div>
+
+        <div class="image dis-product">
+            <div class="image1">
+                <img class="service1" src="product-img/5.png" alt="">
+            </div>
+            <div class="image2">
+                <p style="font-weight: bold;">AMCREST-1080-HD - netværksovervågningskamera</p>
+                <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1080p, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+            </div>
+            <div class="image3">
+                <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 285,00 kr.</i><br>235,60 kr. ekskl. moms</p>
+                <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=AMCREST-1080-HD_-_netværksovervågningskamera&price=285,00 Kr. Inkl. moms">Køb...</a></button>
+
+            </div>
+        </div>
+                <div class="image dis-product hidden-product">
+                    <div class="image1">
+                        <img class="service1" src="product-img/6.png" alt="">
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">NightWatcher-HD - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1015p-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 500,00 kr.</i><br>400,60 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=NightWatcher-HD_-_netværksovervågningskamera&price=500,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+
+                <div class="image dis-product hidden-product">
+                    <div class="image1">
+                        <img class="service1" src="product-img/7.png" alt="">
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">By-Lin-HD - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1115p-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 500,00 kr.</i><br>400,60 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=By-Lin-HD_-_netværksovervågningskamera&price=500,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+
+                <div class="image dis-product hidden-product">
+                    <div class="image1">
+                        <img class="service1" src="product-img/8.png" alt="">
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">Lorex-1150P-HD - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 1150p-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 550,00 kr.</i><br>415,10 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Lorex-1150P-HD_-_netværksovervågningskamera&price=550,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+
+                <div class="image dis-product hidden-product">
+                    <div class="image1">
+                        <img class="service1" src="product-img/9.png" alt="">
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">D-Link SecuriCAM - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 2000p-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 1000,00 kr.</i><br>800,60 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=D-Link SecuriCAM_-_netværksovervågningskamera&price=1000,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+
+                <div class="image dis-product hidden-product">
+                    <div class="image1">
+                        <img class="service1" src="product-img/10.jpg" alt="">
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">Cisco-Small Business-HD - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 2000p-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 1050,00 kr.</i><br>815,60 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Cisco-Small_Business-HD_-_netværksovervågningskamera&price=1050,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+            
+                <div class="image dis-product hidden-product">
+                    <div class="image1">
+                        <img class="service1" src="product-img/11.jpg" alt="">               
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">Hikvision-2010P-HD - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 2010p-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 1500,00 kr.</i><br>1175,60 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Hikvision-2010P-HD_-_netværksovervågningskamera&price=1500,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+
+                <div class="image dis-product hidden-product">
+                    <div class="image1">
+                        <img class="service1" src="product-img/14.png" alt="">
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">Sony-HD-IPELA - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), 2050p-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 2000,00 kr.</i><br>1600,10 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Sony-HD-IPELA_-_netværksovervågningskamera&price=2000,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+
+                <div class="image dis-product hidden-product ">
+                    <div class="image1">
+                        <img class="service1" src="product-img/15.jpg" alt="">
+                    </div>
+                    <div class="image2">
+                        <p style="font-weight: bold;">Panasonic-WV-CF634 - netværksovervågningskamera</p>
+                        <p>Netværksovervågningskamera, panering / hældningsvinkel, farve (Dag/nat), WV-CF634-HD, fast brændvidde, audio, trådløs, WiFi, DC 5 V</p>
+                    </div>
+                    <div class="image3">
+                        <p style="font-size: 12px;"><i style="font-weight: bold; color: brown;font-size: 18px;" > Pris 2500,00 kr.</i><br>1975,50 kr. ekskl. moms</p>
+                        <button class="buy-button"><a style="text-decoration: none; color: white;" href="payment.html?product=Panasonic-WV-CF634T_-_netværksovervågningskamera&price=2500,00 Kr. Inkl. moms">Køb...</a></button>
+
+                    </div>
+                </div>
+                <button class="more" id="more">Vis flere</button>
+
+        <div class="footer-top">
+            <p></p>
+        </div>
+        <div class="footer">
+            <div class="footer1"><p class="footer-header"> Support</p>
+               <p class="footer-description">
+                    <a class="hyperlink" href="">Opret reklamationssag<br></a>
+                    <a class="hyperlink" href="">Opret fortrydelsessag<br></a>
+                    <a class="hyperlink" href="">Glemt adgangskode<br></a> 
+                    <a class="hyperlink" href="about.html">Om Proshop<br></a>
+                    Guides
+                </p>
+            </div>
+            <div class="footer2"><p class="footer-header"> Åbningstider</p>
+               <p class="footer-description"> Mandag - torsdag: 8:00 - 16:00 <br>
+                Fredag:           8:00 - 15:30 <br>
+                Lørdag, søndag & <br>
+                helligdage:       Lukket<br>
+                Kontakt os</p>
+            </div>
+            <div class="footer3"><p class="footer-header"> Kontakt</p>
+                <p class="footer-description"> 
+                    Sikkert Hjem ApS <br>
+                    <a class="hyperlink" href="https://www.google.com/maps/place/Reb%C3%A6k+S%C3%B8park+25,+2650+Hvidovre/@55.6614646,12.4533182,17z/data=!3m1!4b1!4m5!3m4!1s0x4652514cc1e846c1:0xaafbcf47b0b41164!8m2!3d55.6614646!4d12.4555069" 
+                    target="_blank">Rebæk Søpark 25,<br> 2650 Hvidovre.<br></a>
+                    Danmark. <br>
+                    CVR: 42 34 72 39
+                </p>
+            </div>
+            <div class="footer4"><p class="footer-header"> Levering</p>
+                <p class="footer-description"> 
+                    <a class="hyperlink" href="https://www.dhl.dk/en/express.html"target="_blank">DHL Express.<br></a>
+                    <a class="hyperlink" href="https://www.fedex.com/en-dk/home.html"target="_blank">Fedex Express.<br></a>
+                    <a class="hyperlink" href="https://gls-group.eu/DK/en/offer-from-gls-express"target="_blank">GLS Express.<br></a>
+                    <a class="hyperlink" href="https://www.postnord.dk/"target="_blank">Postnord Express.<br></a>
+                    <a class="hyperlink" href="https://www.bring.dk/en/services/parcels-and-cargo/parcels-to-consumers"target="_blank">Bring Express.</a>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="js/dm.js"></script>
+    <script src="js/togglelogin.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/description.js"></script>
+    <script src="js/read-more-less.js"></script>
+    
+</body>
+</html>

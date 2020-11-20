@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo School Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/galleri.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login-search.css">
+    <link rel="stylesheet" href="css/customerservice.css">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="header1">Sikkert Hjem</div>
+            <div class="header2">
+                <div class="flex-all direction-column">
+                    <form id="form-login" class="form form-login flex-all hidden">
+                        <input class="form-login-input form-login-user" type="text" placeholder="Brugernavn">
+                        <input class="form-login-input form-login-pw" type="password" placeholder="Password">
+                        <input  class="form-login-input form-login-submit" type="submit" value="login">
+                    </form>
+                    <button id="toggle-login" class="toggle-login">Log ind</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="navigation">
+                    
+                    <nav class="main-menu">
+                        <input class="burger-check" type="checkbox" id="burger-check">
+                        <label class="burger-label" for="burger-check">
+                            <span class="burger burger-1"></span>
+                            <span class="burger burger-2"></span>
+                            <span class="burger burger-3"></span>
+                        </label>
+
+                        <nav class="dm-nav menu-items">
+                        </nav>
+                    </nav>
+                
+        </div>
+
+        <div class="search">
+            <form class="form form-search flex-all">
+                <input type="text" placeholder="Søg på siden">
+                <input class="search-btn" type="image" src="img/search.png">
+            </form>
+        </div>
+        
+        <div class="animation"></div>
+        <div class="footer-top"><p></p></div>
+
+        <div class="product product-omos">
+            <div class="product1-omos">
+                <p class="service-text">kundeservice </p>
+                <p></p>
+                <img class="service" src="img/kundeservice.png" alt="">
+                
+            </div>
+            <div class="product1-omos">
+                <div class="justify">
+                    <h3>Kontakt Os</h3>
+                    <p>☎<a href="tel:42347239">42347239</a></p>                            
+                    <p>📧<a href="mailto:kundeservice@Sikkert-Hjem.dk">kundeservice@Sikkert-Hjem.dk</a></p>
+                    <p>⛪<a href="https://www.google.com/maps/place/Reb%C3%A6k+S%C3%B8park+25,+2650+Hvidovre/@55.6614646,12.4533182,17z/data=!3m1!4b1!4m5!3m4!1s0x4652514cc1e846c1:0xaafbcf47b0b41164!8m2!3d55.6614646!4d12.4555069" 
+                        target="_blank">Rebæk Søpark 25, 3tv, 2650 Hvidovre.</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-top">
+            <p></p>
+        </div>
+        <div class="footer">
+            <div class="footer1"><p class="footer-header"> Support</p>
+               <p class="footer-description">
+                    <a class="hyperlink" href="">Opret reklamationssag<br></a>
+                    <a class="hyperlink" href="">Opret fortrydelsessag<br></a>
+                    <a class="hyperlink" href="">Glemt adgangskode<br></a> 
+                    <a class="hyperlink" href="about.html">Om Proshop<br></a>
+                    Guides
+                </p>
+            </div>
+            <div class="footer2"><p class="footer-header"> Åbningstider</p>
+               <p class="footer-description"> Mandag - torsdag: 8:00 - 16:00 <br>
+                Fredag:           8:00 - 15:30 <br>
+                Lørdag, søndag & <br>
+                helligdage:       Lukket<br>
+                Kontakt os</p>
+            </div>
+            <div class="footer3"><p class="footer-header"> Kontakt</p>
+                <p class="footer-description"> 
+                    Sikkert Hjem ApS <br>
+                    <a class="hyperlink" href="https://www.google.com/maps/place/Reb%C3%A6k+S%C3%B8park+25,+2650+Hvidovre/@55.6614646,12.4533182,17z/data=!3m1!4b1!4m5!3m4!1s0x4652514cc1e846c1:0xaafbcf47b0b41164!8m2!3d55.6614646!4d12.4555069" 
+                    target="_blank">Rebæk Søpark 25,<br> 2650 Hvidovre.<br></a>
+                    Danmark. <br>
+                    CVR: 42 34 72 39
+                </p>
+            </div>
+            <div class="footer4"><p class="footer-header"> Levering</p>
+                <p class="footer-description"> 
+                    <a class="hyperlink" href="https://www.dhl.dk/en/express.html"target="_blank">DHL Express.<br></a>
+                    <a class="hyperlink" href="https://www.fedex.com/en-dk/home.html"target="_blank">Fedex Express.<br></a>
+                    <a class="hyperlink" href="https://gls-group.eu/DK/en/offer-from-gls-express"target="_blank">GLS Express.<br></a>
+                    <a class="hyperlink" href="https://www.postnord.dk/"target="_blank">Postnord Express.<br></a>
+                    <a class="hyperlink" href="https://www.bring.dk/en/services/parcels-and-cargo/parcels-to-consumers"target="_blank">Bring Express.</a>
+                </p>
+            </div>
+        </div>
+        
+      </div>
+      <script src="js/dm.js"></script>
+      <script src="js/togglelogin.js"></script>
+      <script src="js/description.js"></script>
+</body>
+</html>

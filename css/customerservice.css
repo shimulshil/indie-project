@@ -1,0 +1,127 @@
+.service-text{
+    font-size: 50px;
+    font-family: 'EB Garamond', serif;
+}
+.justify{
+    padding-left: 0px;
+    font-size: 122%;
+}
+.product-omos{
+  padding: 5px 50px;
+}
+.omos-button{
+  padding-bottom: 20px;
+  padding-left: 50px;
+}
+
+/* product*/
+.margin{
+  padding-bottom: 50px;
+}
+.padding{
+  padding: 5px;
+}
+.form-width{
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  color: black;
+  cursor: pointer;
+  border: solid 2px;
+}
+.image{
+  grid-column-start: 1; 
+  grid-column-end:6 ; 
+  grid-auto-rows: 150px; 
+  grid-template-columns: repeat(16, 1fr); 
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+.image1{
+  grid-column-start: 2; 
+  grid-column-end:5 ;
+  grid-row-start: 1; 
+  grid-row-end: 2;
+}
+.image2{
+  grid-column-start: 6; 
+  grid-column-end:11;
+  grid-row-start: 1; 
+  grid-row-end: 2;
+}
+.image3{
+  grid-column-start: 12; 
+  grid-column-end:15 ;
+  grid-row-start: 1; 
+  grid-row-end: 2; 
+}
+
+.buy-button{
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bolder;
+  background-color: brown;
+}
+
+
+@media screen and (min-width: 700px){
+  .image{
+    display: grid;
+    padding-bottom: 0;
+  }
+  
+}
+@media screen and (min-width: 800px){
+  
+  .product-omos{
+    padding: 5px 100px;
+  } 
+  .form1{
+    display: flex;
+    margin-bottom: -10px;
+  } 
+  
+  .justify{
+    padding-top:20px;
+  }
+  .omos-button{
+    padding-left: 180px;
+  }
+  .form-width{
+    width: 180px;
+    height: 30px;
+}   
+  }
+
+  @media screen and (min-width: 900px){
+    .product-omos{
+      padding: 5px 144px;
+    }
+    .omos-button{
+      padding-left: 200px;
+    } 
+    .form-width{
+      width: 210px;
+      height: 30px;
+  } 
+    
+  }
+
+  @media screen and (min-width: 1000px){
+    .form-width{
+      width: 220px;
+      height: 35px;
+  }
+}
+  
+  @media screen and (min-width: 1200px){
+    
+    .omos-button{
+      padding-left: 350px;
+    }
+    .form-width{
+    width: 300px;
+    height: 40px;
+}
+    
+  }
